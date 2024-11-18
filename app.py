@@ -23,8 +23,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 import win32com.client as win32
 import xlwings as xw
+import xml.etree.ElementTree as ET
 
 # GUI FILE
 from ui_main import Ui_MainWindow
@@ -211,7 +214,7 @@ class MainWindow(QMainWindow):
 
                 for div in divs:
                     try:
-                        self.write_robo_log("=> Iniciando novo edital", "white")
+                        
 
                         links = div.find_all('a')
                         linkDownload = []
@@ -262,6 +265,9 @@ class MainWindow(QMainWindow):
                         hora_split = (dataPregao.split(' ')[1]).split(':')[:2]
                         horaPregao = ' '.join(hora_split)
 
+                        emailEffecti = "rafaelleite@r2brasil.group"
+                        senhaEffecti = "Empresa@2024"
+
 
                         caracteres_proibidos = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
 
@@ -273,6 +279,8 @@ class MainWindow(QMainWindow):
                         
                         
                         nome_pasta = "{} - {} - {}H - {} {} - UASG {}".format(idEffecti,dataPregao,horaPregao,portalPregao_limpo,numeroPregao_limpo,uasgPregao_limpo)
+
+                        self.write_robo_log(f"=> Iniciando novo edital: {nome_pasta}", "white")
 
                         try:
                             os.chdir(self.directory)
@@ -369,19 +377,263 @@ class MainWindow(QMainWindow):
                             os.chdir("PROPOSTA DE PREÇO")
                             shutil.copy(self.proposta_archive, os.getcwd())
 
-                            arquivo_excel = ("PLANILHA PROPOSTA R2 OFICIAL.xlsx")
-                            app = xw.App(visible=False)
-                            workbook = app.books.open(arquivo_excel)
-                            aba_ativaPreco = workbook.sheets[0]  # Seleciona a primeira aba
+                            self.write_robo_log("=> Abrindo o chrome", "white")
+                            chrome_options = Options()
+                            # chrome_options.add_argument('--headless=new')
+                            chrome_options.add_experimental_option("detach", True)
+                            chrome_prefs = {
+                                "download.default_directory": os.getcwd(),
+                                "download.prompt_for_download": False,
+                                "directory_upgrade": True,
+                                "safebrowsing.enabled": True 
+                            }
+                            chrome_options.add_experimental_option("prefs", chrome_prefs)
 
-                            # Modificando as células
-                            aba_ativaPreco.range("B11").value = orgaoPregao
-                            aba_ativaPreco.range("C13").value = numeroPregao
+                            servico = Service(ChromeDriverManager().install())
+                            navegador = webdriver.Chrome(service=servico, options=chrome_options)
 
-                            # Salvando a planilha sem perder a logo
-                            workbook.save(arquivo_excel)
-                            workbook.close()
-                            app.quit()
+                            navegador.set_window_size(1200, 1020)
+
+                            try:
+                                navegador.get("https://minha.effecti.com.br/#/")
+                                WebDriverWait(navegador, 15).until(
+                                    lambda d: d.execute_script("return document.readyState") == "complete"
+                                )
+
+                                xpath_inputLoginEmail = '//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[1]/div[1]/input'
+                                xpath_inputLoginSenha = '//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[1]/div[2]/div[1]/input'
+
+                                inputLoginEmail = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_inputLoginEmail))
+                                )
+                                inputLoginEmail.click()
+                                inputLoginEmail.send_keys(emailEffecti)
+
+                                inputLoginSenha = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_inputLoginSenha))
+                                )
+                                inputLoginSenha.click()
+                                inputLoginSenha.send_keys(senhaEffecti)
+
+                                navegador.find_element('xpath', '//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[3]/a[1]').click()
+
+                                self.write_robo_log("Entrou no site da effecti com sucesso", "green")
+                                time.sleep(3)
+                            except Exception as e:
+                                self.write_robo_log(f"Erro no login do portal effecti: {e}", "white")
+
+                            try:
+                                navegador.get("https://minha.effecti.com.br/#/avisos-cartoes")
+                                WebDriverWait(navegador, 15).until(
+                                    lambda d: d.execute_script("return document.readyState") == "complete"
+                                )
+
+                                xpath_botaoFinalizar = '//*[@id="step-0"]/div[3]/a'
+                                botaoFinalizar = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_botaoFinalizar))
+                                )
+                                botaoFinalizar.click()
+
+
+                                xpath_botaoFavoritos = '//*[@id="notices-tabs__BV_tab_controls_"]/li[2]'
+                                botaoFavoritos = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_botaoFavoritos))
+                                )
+                                botaoFavoritos.click()
+
+                                xpath_botaoFiltro = '//*[@id="filter_toggler"]'
+                                botaoFiltro = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_botaoFiltro))
+                                )
+                                botaoFiltro.click()
+
+                                xpath_inputIDEffecti = '//*[@id="idEffecti"]'
+
+                                inputIDEffecti = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_inputIDEffecti))
+                                )
+                                inputIDEffecti.click()
+                                inputIDEffecti.send_keys(idEffecti)
+
+                                xpath_botaoAplicar = '/html/body/div[1]/div[2]/div/div[4]/div/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/button[1]'
+                                botaoAplicar = WebDriverWait(navegador, 15).until(
+                                    EC.presence_of_element_located((By.XPATH, xpath_botaoAplicar))
+                                )
+                                botaoAplicar.click()
+
+                                time.sleep(5)
+
+                                try:
+                                    try:
+                                        campoAnotacoes = WebDriverWait(navegador, 15).until(
+                                            EC.visibility_of_element_located((By.XPATH, '/html/body/div[1]/div[2]/div/div[4]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div/div[4]/div[2]/div/div'))
+                                        )
+                                    except:
+                                        self.write_robo_log(f"Edital não possui anotações", "red")
+
+                                    texto = campoAnotacoes.text
+                                    textoSemEspaco = texto.replace(" ", "")
+                                    arrayStrings = textoSemEspaco.split("-")
+                                    arrayItens = [int(num) for num in arrayStrings]
+                                    self.write_robo_log(f"Itens encontrados: {arrayItens}", "white")
+                                except:
+                                    self.write_robo_log(f"Erro na captação de itens", "red")
+
+                                self.write_robo_log(f"Sucesso em achar o edital!", "green")
+
+                            except Exception as e:
+                                self.write_robo_log("Erro na captação do edital", "red")
+                            
+                            try:
+                                self.write_robo_log("Entrando em Detalhes do edital", "white")
+
+                                actions = ActionChains(navegador)
+
+                                for i in range(30):
+                                    actions.send_keys(Keys.ARROW_DOWN).perform()
+                                    time.sleep(0.01)
+
+                                time.sleep(2)
+
+                                try:
+                                    xpath_botaoDetalhes = '/html/body/div[1]/div[2]/div/div[4]/div/div[2]/div[2]/div/div[2]/div[2]/div/div[7]/button'
+                                    botaoDetalhes = WebDriverWait(navegador, 15).until(
+                                        EC.element_to_be_clickable((By.XPATH, xpath_botaoDetalhes))
+                                    )
+                                    botaoDetalhes.click()
+                                except Exception as e:
+                                    xpath_botaoDetalhes = '/html/body/div[1]/div[2]/div/div[4]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div/div[6]/button'
+                                    botaoDetalhes = WebDriverWait(navegador, 15).until(
+                                        EC.element_to_be_clickable((By.XPATH, xpath_botaoDetalhes))
+                                    )
+                                    botaoDetalhes.click()
+
+                                time.sleep(3)
+
+                                xpath_botaoExportar = '//*[@id="dropdown-3__BV_toggle_"]'
+                                botaoExportar = WebDriverWait(navegador, 15).until(
+                                    EC.element_to_be_clickable((By.XPATH, xpath_botaoExportar))
+                                )
+                                botaoExportar.click()
+
+                                xpath_botaoXML = '//*[@id="dropdown-3"]/ul/li[5]'
+                                botaoXML = WebDriverWait(navegador, 15).until(
+                                    EC.element_to_be_clickable((By.XPATH, xpath_botaoXML))
+                                )
+                                botaoXML.click()
+
+                                time.sleep(10)
+
+
+
+                                self.write_robo_log(f"Baixou XML do edital com sucesso", "green")
+                                                                
+                            except Exception as e:
+                                self.write_robo_log(f"Erro ao obter os detalhes do edital: {e}", "red")
+
+                            navegador.delete_all_cookies()
+                            navegador.quit()
+
+                            try:
+                                current_directory = os.getcwd()
+
+                                xml_files = [f for f in os.listdir(current_directory) if f.endswith('.xml')]
+
+                                xml_file = xml_files[0] if xml_files else None
+
+                                with open(xml_file, 'r', encoding='utf-8') as file:
+                                    xml_data = file.read()
+
+                                try:
+                                    root = ET.fromstring(xml_data)
+                                except ET.ParseError as e:
+                                    print(f"Erro ao processar o XML: {e}")
+                                    exit()
+
+                                caminho_planilha = 'PLANILHA PROPOSTA R2 OFICIAL.xlsx'
+
+                                try:
+                                    # Abre a planilha no Excel
+                                    app = xw.App(visible=True)  # Torna visível para depuração
+                                    workbook = app.books.open(caminho_planilha)
+                                    sheet = workbook.sheets[0]  # Ajuste a aba conforme necessário
+
+                                    sheet.range("B11").value = orgaoPregao
+                                    sheet.range("C13").value = numeroPregao
+
+                                    # Linha inicial para escrever os dados
+                                    linha_inicial = 21
+                                    linha_primeiro_item = linha_inicial
+
+                                    # Itera pelos itens do XML
+                                    for item in root.findall(".//item"):  # Procura por todos os elementos <item>
+                                        try:
+                                            # Extrai os dados
+                                            codigo = int(item.find('codigo').text)
+                                            unidade = item.find('unidade').text
+                                            quantidade = int(item.find('quantidade').text)
+                                            objeto = item.find('objeto').text
+
+                                            # Verifica se o código está na lista
+                                            if codigo in arrayItens:
+                                                print(f"ACHOU UM ITEM: Código={codigo}, Unidade={unidade}, Quantidade={quantidade}, Objeto={objeto}")
+                                                sheet[f"A{linha_inicial}"].value = codigo
+                                                sheet[f"B{linha_inicial}"].value = objeto
+                                                sheet[f"C{linha_inicial}"].value = unidade
+                                                sheet[f"E{linha_inicial}"].value = quantidade
+                                                sheet[f"G{linha_inicial}"].formula = f"=F{linha_inicial}*E{linha_inicial}"
+
+                                                intervalo = f"A{linha_inicial}:G{linha_inicial}"
+                                                for cell in sheet.range(intervalo):
+                                                    for border_id in range(7, 13):  # IDs 7 a 12 correspondem às bordas
+                                                        cell.api.Borders(border_id).LineStyle = 1  # Linha contínua
+                                                        cell.api.Borders(border_id).Weight = 2    # Espessura média (xlThin)
+                                                linha_inicial += 1
+                                        except Exception as e:
+                                            print(f"Erro ao processar item: {ET.tostring(item, encoding='unicode')} - Erro: {e}")
+
+                                    # Adiciona texto "Total:" mesclado e estilizado ao final
+                                    linha_total = linha_inicial  # Linha após os itens inseridos
+                                    range_total = f"A{linha_total}:F{linha_total}"
+                                    sheet.range(range_total).merge()  # Mescla as células de A até F
+                                    sheet[f"A{linha_total}"].value = "Total:"
+                                    sheet[f"A{linha_total}"].font.bold = True  # Negrito
+                                    sheet[f"A{linha_total}"].api.HorizontalAlignment = -4152  # Alinhado à direita (xlRight)
+
+                                    sheet[f"G{linha_total}"].formula = f"=SUM(G{linha_primeiro_item}:G{linha_inicial - 1})"
+                                    sheet[f"G{linha_total}"].font.bold = True  # Negrito para o total
+
+                                    # Salva a planilha
+                                    workbook.save()
+                                    print("Dados adicionados com sucesso!")
+                                except Exception as e:
+                                    print(f"Erro ao manipular a planilha: {e}")
+                                finally:
+                                    # Fecha a planilha e o Excel
+                                    workbook.close()
+                                    app.quit()
+                            
+                            except Exception as e: 
+                                self.write_robo_log(f"Erro em colocar os itens {e}", "red")
+                                try:
+                                    arquivo_excel = ("PLANILHA PROPOSTA R2 OFICIAL.xlsx")
+                                    app = xw.App(visible=False)
+                                    workbook = app.books.open(arquivo_excel)
+                                    aba_ativaPreco = workbook.sheets[0]  # Seleciona a primeira aba
+
+                                    # Modificando as células
+                                    aba_ativaPreco.range("B11").value = orgaoPregao
+                                    aba_ativaPreco.range("C13").value = numeroPregao
+
+                                    # Salvando a planilha sem perder a logo
+                                    workbook.save(arquivo_excel)
+                                    workbook.close()
+                                    app.quit()
+                                except:
+                                    self.write_robo_log("Erro na alteração dos dados da planilha", "red")
+
+                                
+                            
 
                             print(os.getcwd())
                             self.write_robo_log("Dados da planilha de precificação alterados", "green")

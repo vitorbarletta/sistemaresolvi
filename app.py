@@ -63,6 +63,8 @@ class MainWindow(QMainWindow):
         ########################################################################
         self.ui.page_config_file_button.clicked.connect(self.select_directory)
 
+        self.ui.page_config_documentos_button.clicked.connect(self.select_documentos)
+
         ## CONFIG BUTTON -> ABRE A ESCOLHA DE ARQUIVO EFFECTI
         self.ui.page_config_effecti_button.clicked.connect(self.select_effecti_archive)
 
@@ -117,6 +119,14 @@ class MainWindow(QMainWindow):
         else:
             self.write_config_log("=> Erro na escolha da Planilha Effecti", "red")
         print(self.temp_effecti_archive)
+    
+    def select_documentos(self):
+        selected_documentos, _ = QFileDialog.getOpenFileName(self, "Escolher a planilha Effecti", "", "All Files (*)")
+        if selected_documentos:
+            self.temp_documentos = selected_documentos
+            self.write_config_log("=> Documentos escolhidos com sucesso", "green")
+        else:
+            self.write_config_log("=> Erro na escolha dos Documentos", "red")
 
     def select_declaracao_archive(self):
         selected_declaracao_archive, _ = QFileDialog.getOpenFileName(self, "Escolher arquivo de declaração", "", "All Files (*)")
@@ -156,11 +166,16 @@ class MainWindow(QMainWindow):
         if self.temp_proposta_archive:
             self.proposta_archive = self.temp_proposta_archive
             self.write_config_log(f"Proposta salva: {self.proposta_archive}", "green")
+
+        if self.temp_documentos:
+            self.documentos = self.temp_documentos
+            self.write_config_log(f"Documentos salvos: {self.documentos}", "green")
         
         self.temp_directory = None
         self.temp_effecti_archive = None
         self.temp_declaracao_archive = None
         self.temp_proposta_archive = None
+        self.temp_documentos = None
 
     def process(self):
         self.write_robo_log("Robô iniciado...", "white")
@@ -303,6 +318,16 @@ class MainWindow(QMainWindow):
                             self.write_robo_log("Erro na criação das subpastas", "red")
 
                         try:
+                            os.chdir("DOCUMENTOS DE HABILITAÇÃO")
+                            self.write_robo_log("=> DOCUMENTOS DE HABILITAÇÃO", "white")
+                            shutil.copy(self.documentos, os.getcwd())
+                            self.write_robo_log("=> Documentos copiados com sucesso", "green")
+                        except:
+                            self.write_robo_log("Erro nos documentos de habilitação", "red")
+
+                        os.chdir(pathOriginal)
+
+                        try:
                             os.chdir("DADOS DO PROCESSO")
                             print("Iniciando processo...")
                             
@@ -379,7 +404,7 @@ class MainWindow(QMainWindow):
 
                             self.write_robo_log("=> Abrindo o chrome", "white")
                             chrome_options = Options()
-                            # chrome_options.add_argument('--headless=new')
+                            chrome_options.add_argument('--headless=new')
                             chrome_options.add_experimental_option("detach", True)
                             chrome_prefs = {
                                 "download.default_directory": os.getcwd(),
@@ -554,7 +579,7 @@ class MainWindow(QMainWindow):
 
                                 try:
                                     # Abre a planilha no Excel
-                                    app = xw.App(visible=True)  # Torna visível para depuração
+                                    app = xw.App(visible=False)  # Torna visível para depuração
                                     workbook = app.books.open(caminho_planilha)
                                     sheet = workbook.sheets[0]  # Ajuste a aba conforme necessário
 

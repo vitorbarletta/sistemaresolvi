@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'ui_main.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.3
+## Created by: Qt User Interface Compiler version 6.8.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -264,7 +264,7 @@ class Ui_MainWindow(object):
 "")
         self.page_config_declaracao_button = QPushButton(self.frame)
         self.page_config_declaracao_button.setObjectName(u"page_config_declaracao_button")
-        self.page_config_declaracao_button.setGeometry(QRect(90, 220, 251, 31))
+        self.page_config_declaracao_button.setGeometry(QRect(90, 200, 251, 31))
         self.page_config_declaracao_button.setStyleSheet(u"color: #fff;\n"
 "background: #1F6AA5;\n"
 "border: none;\n"
@@ -273,13 +273,13 @@ class Ui_MainWindow(object):
 )
         self.label_6 = QLabel(self.frame)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(180, 200, 71, 16))
+        self.label_6.setGeometry(QRect(180, 180, 71, 16))
         self.label_6.setStyleSheet(u"color: #fff;\n"
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "")
         self.page_config_proposta_button = QPushButton(self.frame)
         self.page_config_proposta_button.setObjectName(u"page_config_proposta_button")
-        self.page_config_proposta_button.setGeometry(QRect(600, 220, 251, 31))
+        self.page_config_proposta_button.setGeometry(QRect(600, 200, 251, 31))
         self.page_config_proposta_button.setStyleSheet(u"color: #fff;\n"
 "background: #1F6AA5;\n"
 "border: none;\n"
@@ -288,18 +288,33 @@ class Ui_MainWindow(object):
 )
         self.label_7 = QLabel(self.frame)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(670, 200, 121, 20))
+        self.label_7.setGeometry(QRect(670, 180, 121, 20))
         self.label_7.setStyleSheet(u"color: #fff;\n"
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "")
         self.page_config_log_field = QTextEdit(self.frame)
         self.page_config_log_field.setObjectName(u"page_config_log_field")
-        self.page_config_log_field.setGeometry(QRect(90, 300, 761, 301))
+        self.page_config_log_field.setGeometry(QRect(90, 340, 761, 301))
         self.page_config_log_field.setStyleSheet(u"background: #000;\n"
 "color: #fff;\n"
 "font: 81 12px\"AirbnbCereal_W_Light\";\n"
 "border-radius: 8px;\n"
 "border: none")
+        self.label_8 = QLabel(self.frame)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(180, 260, 81, 20))
+        self.label_8.setStyleSheet(u"color: #fff;\n"
+"font: 81 14px\"AirbnbCereal_W_Light\";\n"
+"")
+        self.page_config_documentos_button = QPushButton(self.frame)
+        self.page_config_documentos_button.setObjectName(u"page_config_documentos_button")
+        self.page_config_documentos_button.setGeometry(QRect(90, 280, 251, 31))
+        self.page_config_documentos_button.setStyleSheet(u"color: #fff;\n"
+"background: #1F6AA5;\n"
+"border: none;\n"
+"font: 81 14px\"AirbnbCereal_W_Light\";\n"
+"border-radius: 8px;\n"
+)
 
         self.verticalLayout_6.addWidget(self.frame)
 
@@ -332,7 +347,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -357,6 +372,8 @@ class Ui_MainWindow(object):
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Declara\u00e7\u00e3o", None))
         self.page_config_proposta_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o arquivo da planilha", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"Planilha de Proposta", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Documentos", None))
+        self.page_config_documentos_button.setText(QCoreApplication.translate("MainWindow", u"Escolher os arquivos da documenta\u00e7\u00e3o", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"EM BREVE", None))
     # retranslateUi
 

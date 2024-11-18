@@ -319,7 +319,7 @@ QPushButton:hover {
              <string notr="true">border: none;</string>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="page_robo">
              <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -547,7 +547,7 @@ font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
                  <property name="geometry">
                   <rect>
                    <x>90</x>
-                   <y>220</y>
+                   <y>200</y>
                    <width>251</width>
                    <height>31</height>
                   </rect>
@@ -568,7 +568,7 @@ cursor: pointer;</string>
                  <property name="geometry">
                   <rect>
                    <x>180</x>
-                   <y>200</y>
+                   <y>180</y>
                    <width>71</width>
                    <height>16</height>
                   </rect>
@@ -586,7 +586,7 @@ font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
                  <property name="geometry">
                   <rect>
                    <x>600</x>
-                   <y>220</y>
+                   <y>200</y>
                    <width>251</width>
                    <height>31</height>
                   </rect>
@@ -607,7 +607,7 @@ cursor: pointer;</string>
                  <property name="geometry">
                   <rect>
                    <x>670</x>
-                   <y>200</y>
+                   <y>180</y>
                    <width>121</width>
                    <height>20</height>
                   </rect>
@@ -625,7 +625,7 @@ font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
                  <property name="geometry">
                   <rect>
                    <x>90</x>
-                   <y>300</y>
+                   <y>340</y>
                    <width>761</width>
                    <height>301</height>
                   </rect>
@@ -636,6 +636,45 @@ color: #fff;
 font: 81 12px&quot;AirbnbCereal_W_Light&quot;;
 border-radius: 8px;
 border: none</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>180</x>
+                   <y>260</y>
+                   <width>81</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Documentos</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="page_config_documentos_button">
+                 <property name="geometry">
+                  <rect>
+                   <x>90</x>
+                   <y>280</y>
+                   <width>251</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+background: #1F6AA5;
+border: none;
+font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
+border-radius: 8px;
+cursor: pointer;</string>
+                 </property>
+                 <property name="text">
+                  <string>Escolher os arquivos da documentação</string>
                  </property>
                 </widget>
                </widget>

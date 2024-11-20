@@ -352,9 +352,9 @@ color: #fff;</string>
                  <property name="geometry">
                   <rect>
                    <x>20</x>
-                   <y>70</y>
+                   <y>440</y>
                    <width>871</width>
-                   <height>541</height>
+                   <height>171</height>
                   </rect>
                  </property>
                  <property name="styleSheet">
@@ -405,6 +405,298 @@ cursor: pointer;</string>
                  </property>
                  <property name="text">
                   <string>COMEÇAR</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="nomeEdital">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>65</y>
+                   <width>901</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 20px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;
+background: #000;
+padding: 5px;
+border-radius: 5px;</string>
+                 </property>
+                 <property name="text">
+                  <string>Nome do edital </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>110</y>
+                   <width>261</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Criação da pasta e subpastas</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="pastaStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>290</x>
+                   <y>110</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: green;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>150</y>
+                   <width>211</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Cópia dos documentos</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="documentosStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>240</x>
+                   <y>150</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>190</y>
+                   <width>191</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Download dos editais</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="downloadStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>190</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>230</y>
+                   <width>211</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Alteração na declaração</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="declaracaoStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>250</x>
+                   <y>230</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>270</y>
+                   <width>231</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Conversão de arquivo PDF</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="pdfStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>260</x>
+                   <y>270</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>310</y>
+                   <width>351</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Login no portal effecti e Download XML</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="loginxmlStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>380</x>
+                   <y>310</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_22">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>350</y>
+                   <width>191</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Alteração na planilha</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="planilhaStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>350</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_24">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>390</y>
+                   <width>261</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 81 18px &quot;AirbnbCereal_W_XBd ExtBd&quot;;
+color: #fff;</string>
+                 </property>
+                 <property name="text">
+                  <string>Inserção dos itens na planilha</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="itensStatus">
+                 <property name="geometry">
+                  <rect>
+                   <x>290</x>
+                   <y>390</y>
+                   <width>31</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font-size: 18px</string>
+                 </property>
+                 <property name="text">
+                  <string/>
                  </property>
                 </widget>
                </widget>
@@ -486,27 +778,6 @@ cursor: pointer;</string>
                   <string>Escolher o caminho para salvar</string>
                  </property>
                 </widget>
-                <widget class="QPushButton" name="page_config_effecti_button">
-                 <property name="geometry">
-                  <rect>
-                   <x>600</x>
-                   <y>110</y>
-                   <width>251</width>
-                   <height>31</height>
-                  </rect>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: #fff;
-background: #1F6AA5;
-border: none;
-font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
-border-radius: 8px;
-cursor: pointer;</string>
-                 </property>
-                 <property name="text">
-                  <string>Escolher o arquivo HTML Effecti</string>
-                 </property>
-                </widget>
                 <widget class="QLabel" name="label_4">
                  <property name="geometry">
                   <rect>
@@ -523,24 +794,6 @@ font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
                  </property>
                  <property name="text">
                   <string>Pasta</string>
-                 </property>
-                </widget>
-                <widget class="QLabel" name="label_5">
-                 <property name="geometry">
-                  <rect>
-                   <x>690</x>
-                   <y>90</y>
-                   <width>91</width>
-                   <height>20</height>
-                  </rect>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: #fff;
-font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
-</string>
-                 </property>
-                 <property name="text">
-                  <string>Arquivo HTML</string>
                  </property>
                 </widget>
                 <widget class="QPushButton" name="page_config_declaracao_button">
@@ -586,7 +839,7 @@ font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
                  <property name="geometry">
                   <rect>
                    <x>600</x>
-                   <y>200</y>
+                   <y>110</y>
                    <width>251</width>
                    <height>31</height>
                   </rect>
@@ -607,7 +860,7 @@ cursor: pointer;</string>
                  <property name="geometry">
                   <rect>
                    <x>670</x>
-                   <y>180</y>
+                   <y>90</y>
                    <width>121</width>
                    <height>20</height>
                   </rect>
@@ -675,6 +928,45 @@ cursor: pointer;</string>
                  </property>
                  <property name="text">
                   <string>Escolher os arquivos da documentação</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="page_config_planilhaID_button">
+                 <property name="geometry">
+                  <rect>
+                   <x>600</x>
+                   <y>200</y>
+                   <width>251</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+background: #1F6AA5;
+border: none;
+font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
+border-radius: 8px;
+cursor: pointer;</string>
+                 </property>
+                 <property name="text">
+                  <string>Escolher o arquivo da planilha</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>680</x>
+                   <y>180</y>
+                   <width>91</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #fff;
+font: 81 14px&quot;AirbnbCereal_W_Light&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Planilha de ID's</string>
                  </property>
                 </widget>
                </widget>

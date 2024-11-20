@@ -252,6 +252,66 @@
   ('ctypes.wintypes', 'C:\\Python312\\Lib\\ctypes\\wintypes.py', 'PYMODULE'),
   ('dataclasses', 'C:\\Python312\\Lib\\dataclasses.py', 'PYMODULE'),
   ('datetime', 'C:\\Python312\\Lib\\datetime.py', 'PYMODULE'),
+  ('dateutil',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
   ('decimal', 'C:\\Python312\\Lib\\decimal.py', 'PYMODULE'),
   ('difflib', 'C:\\Python312\\Lib\\difflib.py', 'PYMODULE'),
   ('dis', 'C:\\Python312\\Lib\\dis.py', 'PYMODULE'),
@@ -628,26 +688,6 @@
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\docx2pdf\\__init__.py',
    'PYMODULE'),
-  ('dotenv',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\dotenv\\__init__.py',
-   'PYMODULE'),
-  ('dotenv.ipython',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\dotenv\\ipython.py',
-   'PYMODULE'),
-  ('dotenv.main',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\dotenv\\main.py',
-   'PYMODULE'),
-  ('dotenv.parser',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\dotenv\\parser.py',
-   'PYMODULE'),
-  ('dotenv.variables',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\dotenv\\variables.py',
-   'PYMODULE'),
   ('email', 'C:\\Python312\\Lib\\email\\__init__.py', 'PYMODULE'),
   ('email._encoded_words',
    'C:\\Python312\\Lib\\email\\_encoded_words.py',
@@ -690,6 +730,7 @@
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
    'PYMODULE'),
+  ('fileinput', 'C:\\Python312\\Lib\\fileinput.py', 'PYMODULE'),
   ('fnmatch', 'C:\\Python312\\Lib\\fnmatch.py', 'PYMODULE'),
   ('fractions', 'C:\\Python312\\Lib\\fractions.py', 'PYMODULE'),
   ('ftplib', 'C:\\Python312\\Lib\\ftplib.py', 'PYMODULE'),
@@ -968,6 +1009,554 @@
   ('netrc', 'C:\\Python312\\Lib\\netrc.py', 'PYMODULE'),
   ('nturl2path', 'C:\\Python312\\Lib\\nturl2path.py', 'PYMODULE'),
   ('numbers', 'C:\\Python312\\Lib\\numbers.py', 'PYMODULE'),
+  ('numpy',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._array_api_info',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE'),
+  ('numpy._core',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs_scalars',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy._core._asarray',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy._core._dtype',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy._core._dtype_ctypes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._core._exceptions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._core._internal',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE'),
+  ('numpy._core._machar',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_machar.py',
+   'PYMODULE'),
+  ('numpy._core._methods',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._core._string_helpers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy._core._type_aliases',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy._core._ufunc_config',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy._core.arrayprint',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy._core.defchararray',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._core.einsumfunc',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy._core.fromnumeric',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy._core.function_base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE'),
+  ('numpy._core.getlimits',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy._core.memmap',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE'),
+  ('numpy._core.multiarray',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy._core.numeric',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE'),
+  ('numpy._core.numerictypes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy._core.overrides',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._core.printoptions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE'),
+  ('numpy._core.records',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE'),
+  ('numpy._core.shape_base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy._core.strings',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE'),
+  ('numpy._core.umath',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._expired_attrs_2_0',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.char',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._helper',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._array_utils_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraypad_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraysetops_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arrayterator_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._function_base_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._histograms_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._index_tricks_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._nanfunctions_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._npyio_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._polynomial_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._scimath_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._shape_base_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._stride_tricks_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._twodim_base_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._type_check_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._ufunclike_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._utils_impl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.array_utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.introspect',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg._linalg',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matlib',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.rec',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE'),
+  ('numpy.strings',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
   ('opcode', 'C:\\Python312\\Lib\\opcode.py', 'PYMODULE'),
   ('openpyxl',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
@@ -1738,9 +2327,1142 @@
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\packaging\\version.py',
    'PYMODULE'),
+  ('pandas',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas._version_meson',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\_version_meson.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.interchange',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.typing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\api\\typing\\__init__.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat._constants',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\_constants.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat.compressors',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\compressors.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.executor',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\executor.py',
+   'PYMODULE'),
+  ('pandas.core._numba.extensions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\extensions.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.mean_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\mean_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.min_max_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\min_max_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.shared',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\shared.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.sum_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\sum_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.var_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\var_.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.datetimelike_accumulations',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\datetimelike_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_accumulations',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_string_mixins',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_arrow_string_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow._arrow_utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.accessors',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.array',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.extension_types',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\extension_types.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.astype',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\astype.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.indexing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.objects',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\objects.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.interchange',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.buffer',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\buffer.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.column',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\column.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe_protocol',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.from_dataframe',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\from_dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.utils',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.methods',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.methods.describe',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.methods.selectn',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\selectn.py',
+   'PYMODULE'),
+  ('pandas.core.methods.to_dict',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\to_dict.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.encoding',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\encoding.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.sample',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\sample.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io._util',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._calamine',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_calamine.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.arrow_parser_wrapper',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\arrow_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.tseries.holiday',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\tseries\\holiday.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
   ('pathlib', 'C:\\Python312\\Lib\\pathlib.py', 'PYMODULE'),
   ('pdb', 'C:\\Python312\\Lib\\pdb.py', 'PYMODULE'),
   ('pickle', 'C:\\Python312\\Lib\\pickle.py', 'PYMODULE'),
+  ('pickletools', 'C:\\Python312\\Lib\\pickletools.py', 'PYMODULE'),
   ('pkg_resources',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
@@ -1758,6 +3480,26 @@
   ('pythoncom',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pytz',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\pytz\\tzinfo.py',
    'PYMODULE'),
   ('pywin',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
@@ -1875,386 +3617,6 @@
   ('runpy', 'C:\\Python312\\Lib\\runpy.py', 'PYMODULE'),
   ('secrets', 'C:\\Python312\\Lib\\secrets.py', 'PYMODULE'),
   ('selectors', 'C:\\Python312\\Lib\\selectors.py', 'PYMODULE'),
-  ('selenium',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\__init__.py',
-   'PYMODULE'),
-  ('selenium.common',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\common\\__init__.py',
-   'PYMODULE'),
-  ('selenium.common.exceptions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\common\\exceptions.py',
-   'PYMODULE'),
-  ('selenium.types',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\types.py',
-   'PYMODULE'),
-  ('selenium.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chrome',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chrome.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chrome.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chrome.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chrome.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chromium',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chromium.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chromium.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chromium.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.chromium.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.action_chains',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\action_chains.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.action_builder',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\action_builder.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.input_device',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\input_device.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.interaction',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\interaction.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.key_actions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_actions.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.key_input',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_input.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.mouse_button',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\mouse_button.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.pointer_actions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_actions.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.pointer_input',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_input.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.wheel_actions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_actions.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.actions.wheel_input',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_input.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.alert',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\alert.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.bidi',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.bidi.script',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\script.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.bidi.session',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\session.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.by',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.desired_capabilities',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\desired_capabilities.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.driver_finder',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\driver_finder.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.keys',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.print_page_options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\print_page_options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.proxy',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\proxy.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.selenium_manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\selenium_manager.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.timeouts',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.utils',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\utils.py',
-   'PYMODULE'),
-  ('selenium.webdriver.common.virtual_authenticator',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py',
-   'PYMODULE'),
-  ('selenium.webdriver.edge',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.edge.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.edge.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.edge.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.edge.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.firefox_binary',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_binary.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.firefox_profile',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_profile.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.firefox.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.ie',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.ie.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.ie.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.ie.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.bidi_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\bidi_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.client_config',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\client_config.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.command',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\command.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.errorhandler',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.file_detector',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.locator_converter',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\locator_converter.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.mobile',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\mobile.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.script_key',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\script_key.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.shadowroot',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\shadowroot.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.switch_to',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.utils',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\utils.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.webelement',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py',
-   'PYMODULE'),
-  ('selenium.webdriver.remote.websocket_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\websocket_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.safari',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.safari.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.safari.remote_connection',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\remote_connection.py',
-   'PYMODULE'),
-  ('selenium.webdriver.safari.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.safari.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support.expected_conditions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support.relative_locator',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\relative_locator.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support.select',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\select.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support.ui',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py',
-   'PYMODULE'),
-  ('selenium.webdriver.support.wait',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py',
-   'PYMODULE'),
-  ('selenium.webdriver.webkitgtk',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.webkitgtk.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.webkitgtk.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.webkitgtk.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\webdriver.py',
-   'PYMODULE'),
-  ('selenium.webdriver.wpewebkit',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\__init__.py',
-   'PYMODULE'),
-  ('selenium.webdriver.wpewebkit.options',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\options.py',
-   'PYMODULE'),
-  ('selenium.webdriver.wpewebkit.service',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\service.py',
-   'PYMODULE'),
-  ('selenium.webdriver.wpewebkit.webdriver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\webdriver.py',
-   'PYMODULE'),
   ('setuptools',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
@@ -2885,6 +4247,10 @@
   ('shutil', 'C:\\Python312\\Lib\\shutil.py', 'PYMODULE'),
   ('signal', 'C:\\Python312\\Lib\\signal.py', 'PYMODULE'),
   ('site', 'C:\\Python312\\Lib\\site.py', 'PYMODULE'),
+  ('six',
+   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
+   'DEFINITIVO\\.venv\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
   ('socket', 'C:\\Python312\\Lib\\socket.py', 'PYMODULE'),
   ('socketserver', 'C:\\Python312\\Lib\\socketserver.py', 'PYMODULE'),
   ('socks',
@@ -2919,6 +4285,10 @@
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\soupsieve\\util.py',
    'PYMODULE'),
+  ('sqlite3', 'C:\\Python312\\Lib\\sqlite3\\__init__.py', 'PYMODULE'),
+  ('sqlite3.__main__', 'C:\\Python312\\Lib\\sqlite3\\__main__.py', 'PYMODULE'),
+  ('sqlite3.dbapi2', 'C:\\Python312\\Lib\\sqlite3\\dbapi2.py', 'PYMODULE'),
+  ('sqlite3.dump', 'C:\\Python312\\Lib\\sqlite3\\dump.py', 'PYMODULE'),
   ('ssl', 'C:\\Python312\\Lib\\ssl.py', 'PYMODULE'),
   ('statistics', 'C:\\Python312\\Lib\\statistics.py', 'PYMODULE'),
   ('string', 'C:\\Python312\\Lib\\string.py', 'PYMODULE'),
@@ -3165,126 +4535,6 @@
    'PYMODULE'),
   ('uuid', 'C:\\Python312\\Lib\\uuid.py', 'PYMODULE'),
   ('webbrowser', 'C:\\Python312\\Lib\\webbrowser.py', 'PYMODULE'),
-  ('webdriver_manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\__init__.py',
-   'PYMODULE'),
-  ('webdriver_manager.chrome',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\chrome.py',
-   'PYMODULE'),
-  ('webdriver_manager.core',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\__init__.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.archive',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\archive.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.config',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\config.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.constants',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\constants.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.download_manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\download_manager.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.driver',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\driver.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.driver_cache',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\driver_cache.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.file_manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\file_manager.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.http',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\http.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.logger',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\logger.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\manager.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.os_manager',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\os_manager.py',
-   'PYMODULE'),
-  ('webdriver_manager.core.utils',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\core\\utils.py',
-   'PYMODULE'),
-  ('webdriver_manager.drivers',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\drivers\\__init__.py',
-   'PYMODULE'),
-  ('webdriver_manager.drivers.chrome',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\webdriver_manager\\drivers\\chrome.py',
-   'PYMODULE'),
-  ('websocket',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\__init__.py',
-   'PYMODULE'),
-  ('websocket._abnf',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_abnf.py',
-   'PYMODULE'),
-  ('websocket._app',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_app.py',
-   'PYMODULE'),
-  ('websocket._cookiejar',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_cookiejar.py',
-   'PYMODULE'),
-  ('websocket._core',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_core.py',
-   'PYMODULE'),
-  ('websocket._exceptions',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_exceptions.py',
-   'PYMODULE'),
-  ('websocket._handshake',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_handshake.py',
-   'PYMODULE'),
-  ('websocket._http',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_http.py',
-   'PYMODULE'),
-  ('websocket._logging',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_logging.py',
-   'PYMODULE'),
-  ('websocket._socket',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_socket.py',
-   'PYMODULE'),
-  ('websocket._ssl_compat',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_ssl_compat.py',
-   'PYMODULE'),
-  ('websocket._url',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_url.py',
-   'PYMODULE'),
-  ('websocket._utils',
-   'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
-   'DEFINITIVO\\.venv\\Lib\\site-packages\\websocket\\_utils.py',
-   'PYMODULE'),
   ('win32com',
    'd:\\Users\\Vitor\\Desktop\\SISTEMA RESOLVI '
    'DEFINITIVO\\.venv\\Lib\\site-packages\\win32com\\__init__.py',

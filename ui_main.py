@@ -180,7 +180,7 @@ class Ui_MainWindow(object):
 "color: #fff;")
         self.page_robo_log_field = QTextEdit(self.frame_2)
         self.page_robo_log_field.setObjectName(u"page_robo_log_field")
-        self.page_robo_log_field.setGeometry(QRect(20, 70, 871, 541))
+        self.page_robo_log_field.setGeometry(QRect(20, 440, 871, 171))
         self.page_robo_log_field.setStyleSheet(u"font: 81 12px\"AirbnbCereal_W_Light\";\n"
 "background: #000;\n"
 "border: none;\n"
@@ -204,6 +204,94 @@ class Ui_MainWindow(object):
 "font: 81 14px\"AirbnbCereal_W_XBd ExtBd\";\n"
 "border-radius: 8px;\n"
 )
+        self.nomeEdital = QLabel(self.frame_2)
+        self.nomeEdital.setObjectName(u"nomeEdital")
+        self.nomeEdital.setGeometry(QRect(20, 65, 901, 31))
+        self.nomeEdital.setStyleSheet(u"font: 81 20px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;\n"
+"background: #000;\n"
+"padding: 5px;\n"
+"border-radius: 5px;")
+        self.label_10 = QLabel(self.frame_2)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setGeometry(QRect(20, 110, 261, 31))
+        self.label_10.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.pastaStatus = QLabel(self.frame_2)
+        self.pastaStatus.setObjectName(u"pastaStatus")
+        self.pastaStatus.setGeometry(QRect(290, 110, 31, 31))
+        self.pastaStatus.setStyleSheet(u"color: green;\n"
+"font-size: 18px")
+        self.label_12 = QLabel(self.frame_2)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setGeometry(QRect(20, 150, 211, 31))
+        self.label_12.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.documentosStatus = QLabel(self.frame_2)
+        self.documentosStatus.setObjectName(u"documentosStatus")
+        self.documentosStatus.setGeometry(QRect(240, 150, 31, 31))
+        self.documentosStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_14 = QLabel(self.frame_2)
+        self.label_14.setObjectName(u"label_14")
+        self.label_14.setGeometry(QRect(20, 190, 191, 31))
+        self.label_14.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.downloadStatus = QLabel(self.frame_2)
+        self.downloadStatus.setObjectName(u"downloadStatus")
+        self.downloadStatus.setGeometry(QRect(220, 190, 31, 31))
+        self.downloadStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_16 = QLabel(self.frame_2)
+        self.label_16.setObjectName(u"label_16")
+        self.label_16.setGeometry(QRect(20, 230, 211, 31))
+        self.label_16.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.declaracaoStatus = QLabel(self.frame_2)
+        self.declaracaoStatus.setObjectName(u"declaracaoStatus")
+        self.declaracaoStatus.setGeometry(QRect(250, 230, 31, 31))
+        self.declaracaoStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_18 = QLabel(self.frame_2)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setGeometry(QRect(20, 270, 231, 31))
+        self.label_18.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.pdfStatus = QLabel(self.frame_2)
+        self.pdfStatus.setObjectName(u"pdfStatus")
+        self.pdfStatus.setGeometry(QRect(260, 270, 31, 31))
+        self.pdfStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_20 = QLabel(self.frame_2)
+        self.label_20.setObjectName(u"label_20")
+        self.label_20.setGeometry(QRect(20, 310, 351, 31))
+        self.label_20.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.loginxmlStatus = QLabel(self.frame_2)
+        self.loginxmlStatus.setObjectName(u"loginxmlStatus")
+        self.loginxmlStatus.setGeometry(QRect(380, 310, 31, 31))
+        self.loginxmlStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_22 = QLabel(self.frame_2)
+        self.label_22.setObjectName(u"label_22")
+        self.label_22.setGeometry(QRect(20, 350, 191, 31))
+        self.label_22.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.planilhaStatus = QLabel(self.frame_2)
+        self.planilhaStatus.setObjectName(u"planilhaStatus")
+        self.planilhaStatus.setGeometry(QRect(220, 350, 31, 31))
+        self.planilhaStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
+        self.label_24 = QLabel(self.frame_2)
+        self.label_24.setObjectName(u"label_24")
+        self.label_24.setGeometry(QRect(20, 390, 261, 31))
+        self.label_24.setStyleSheet(u"font: 81 18px \"AirbnbCereal_W_XBd ExtBd\";\n"
+"color: #fff;")
+        self.itensStatus = QLabel(self.frame_2)
+        self.itensStatus.setObjectName(u"itensStatus")
+        self.itensStatus.setGeometry(QRect(290, 390, 31, 31))
+        self.itensStatus.setStyleSheet(u"color: #fff;\n"
+"font-size: 18px")
 
         self.verticalLayout_7.addWidget(self.frame_2)
 
@@ -241,25 +329,10 @@ class Ui_MainWindow(object):
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "border-radius: 8px;\n"
 )
-        self.page_config_effecti_button = QPushButton(self.frame)
-        self.page_config_effecti_button.setObjectName(u"page_config_effecti_button")
-        self.page_config_effecti_button.setGeometry(QRect(600, 110, 251, 31))
-        self.page_config_effecti_button.setStyleSheet(u"color: #fff;\n"
-"background: #1F6AA5;\n"
-"border: none;\n"
-"font: 81 14px\"AirbnbCereal_W_Light\";\n"
-"border-radius: 8px;\n"
-)
         self.label_4 = QLabel(self.frame)
         self.label_4.setObjectName(u"label_4")
         self.label_4.setGeometry(QRect(200, 90, 41, 16))
         self.label_4.setStyleSheet(u"color: #fff;\n"
-"font: 81 14px\"AirbnbCereal_W_Light\";\n"
-"")
-        self.label_5 = QLabel(self.frame)
-        self.label_5.setObjectName(u"label_5")
-        self.label_5.setGeometry(QRect(690, 90, 91, 20))
-        self.label_5.setStyleSheet(u"color: #fff;\n"
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "")
         self.page_config_declaracao_button = QPushButton(self.frame)
@@ -279,7 +352,7 @@ class Ui_MainWindow(object):
 "")
         self.page_config_proposta_button = QPushButton(self.frame)
         self.page_config_proposta_button.setObjectName(u"page_config_proposta_button")
-        self.page_config_proposta_button.setGeometry(QRect(600, 200, 251, 31))
+        self.page_config_proposta_button.setGeometry(QRect(600, 110, 251, 31))
         self.page_config_proposta_button.setStyleSheet(u"color: #fff;\n"
 "background: #1F6AA5;\n"
 "border: none;\n"
@@ -288,7 +361,7 @@ class Ui_MainWindow(object):
 )
         self.label_7 = QLabel(self.frame)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(670, 180, 121, 20))
+        self.label_7.setGeometry(QRect(670, 90, 121, 20))
         self.label_7.setStyleSheet(u"color: #fff;\n"
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "")
@@ -315,6 +388,21 @@ class Ui_MainWindow(object):
 "font: 81 14px\"AirbnbCereal_W_Light\";\n"
 "border-radius: 8px;\n"
 )
+        self.page_config_planilhaID_button = QPushButton(self.frame)
+        self.page_config_planilhaID_button.setObjectName(u"page_config_planilhaID_button")
+        self.page_config_planilhaID_button.setGeometry(QRect(600, 200, 251, 31))
+        self.page_config_planilhaID_button.setStyleSheet(u"color: #fff;\n"
+"background: #1F6AA5;\n"
+"border: none;\n"
+"font: 81 14px\"AirbnbCereal_W_Light\";\n"
+"border-radius: 8px;\n"
+)
+        self.label_9 = QLabel(self.frame)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(680, 180, 91, 20))
+        self.label_9.setStyleSheet(u"color: #fff;\n"
+"font: 81 14px\"AirbnbCereal_W_Light\";\n"
+"")
 
         self.verticalLayout_6.addWidget(self.frame)
 
@@ -362,18 +450,35 @@ class Ui_MainWindow(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Rob\u00f4", None))
         self.page_robo_stop_button.setText(QCoreApplication.translate("MainWindow", u"PARAR", None))
         self.page_robo_start_button.setText(QCoreApplication.translate("MainWindow", u"COME\u00c7AR", None))
+        self.nomeEdital.setText(QCoreApplication.translate("MainWindow", u"Nome do edital ", None))
+        self.label_10.setText(QCoreApplication.translate("MainWindow", u"Cria\u00e7\u00e3o da pasta e subpastas", None))
+        self.pastaStatus.setText("")
+        self.label_12.setText(QCoreApplication.translate("MainWindow", u"C\u00f3pia dos documentos", None))
+        self.documentosStatus.setText("")
+        self.label_14.setText(QCoreApplication.translate("MainWindow", u"Download dos editais", None))
+        self.downloadStatus.setText("")
+        self.label_16.setText(QCoreApplication.translate("MainWindow", u"Altera\u00e7\u00e3o na declara\u00e7\u00e3o", None))
+        self.declaracaoStatus.setText("")
+        self.label_18.setText(QCoreApplication.translate("MainWindow", u"Convers\u00e3o de arquivo PDF", None))
+        self.pdfStatus.setText("")
+        self.label_20.setText(QCoreApplication.translate("MainWindow", u"Login no portal effecti e Download XML", None))
+        self.loginxmlStatus.setText("")
+        self.label_22.setText(QCoreApplication.translate("MainWindow", u"Altera\u00e7\u00e3o na planilha", None))
+        self.planilhaStatus.setText("")
+        self.label_24.setText(QCoreApplication.translate("MainWindow", u"Inser\u00e7\u00e3o dos itens na planilha", None))
+        self.itensStatus.setText("")
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Configura\u00e7\u00f5es", None))
         self.page_config_save_button.setText(QCoreApplication.translate("MainWindow", u"SALVAR", None))
         self.page_config_file_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o caminho para salvar", None))
-        self.page_config_effecti_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o arquivo HTML Effecti", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Pasta", None))
-        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Arquivo HTML", None))
         self.page_config_declaracao_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o arquivo de declara\u00e7\u00e3o", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Declara\u00e7\u00e3o", None))
         self.page_config_proposta_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o arquivo da planilha", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"Planilha de Proposta", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Documentos", None))
         self.page_config_documentos_button.setText(QCoreApplication.translate("MainWindow", u"Escolher os arquivos da documenta\u00e7\u00e3o", None))
+        self.page_config_planilhaID_button.setText(QCoreApplication.translate("MainWindow", u"Escolher o arquivo da planilha", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Planilha de ID's", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"EM BREVE", None))
     # retranslateUi
 

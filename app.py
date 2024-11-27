@@ -11,7 +11,6 @@ import shutil
 from docx import Document
 from docx2pdf import convert
 import threading
-import win32com.client as win32
 import xml.etree.ElementTree as et
 from bs4 import BeautifulSoup
 import win32com.client as win32
@@ -19,6 +18,7 @@ import xlwings as xw
 import xml.etree.ElementTree as ET
 import requests
 import pandas as pd
+import sys
 
 # GUI FILE
 from ui_main import Ui_MainWindow
@@ -204,8 +204,11 @@ class MainWindow(QMainWindow):
 
 
                     idEffecti = row.iloc[0]
+                    idEffecti = str(idEffecti)
                     arrayItens = row.iloc[1]
+                    arrayItens = str(arrayItens)  # Força a conversão para string
                     arrayItens = [int(item) for item in arrayItens.split('-') if item.isdigit()]
+
 
                     urlLogin = "https://mdw.minha.effecti.com.br/users/login"
 
@@ -374,15 +377,26 @@ class MainWindow(QMainWindow):
                         self.updateLabelContent("declaracaoStatus", "❌", "color: red;font-size: 18px;")
 
                     try:
-                        word = win32.gencache.EnsureDispatch('Word.Application')
+                        cache_dir = os.path.join(os.path.dirname(win32.__file__), "gen_py")
+                        if os.path.exists(cache_dir):
+                            shutil.rmtree(cache_dir)
+                        print("Cache COM limpo com sucesso.")
+                    except Exception as e:
+                        print(f"Erro ao limpar o cache COM: {str(e)}")
+
+
+                    try:
+                        word = win32.Dispatch('Word.Application')
                         doc = word.Documents.Open(declaracaoWord)
-                        doc.SaveAs(declaracaoPDF, FileFormat=17)  # 17 é o formato para PDF
+                        doc.SaveAs(declaracaoPDF, FileFormat=17) 
                         doc.Close()
-                        self.updateLabelContent("pdfStatus", "✔", "color: green;font-size: 18px;")
                         word.Quit()
+                        self.updateLabelContent("pdfStatus", "✔", "color: green;font-size: 18px;")
                     except Exception as e:
                         self.write_robo_log(f"Erro na conversão de PDF: {str(e)}", "red")
                         self.updateLabelContent("pdfStatus", "❌", "color: red;font-size: 18px;")
+
+                    
 
                     os.chdir(pathOriginal)
                     
